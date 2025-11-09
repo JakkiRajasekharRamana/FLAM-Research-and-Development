@@ -1,0 +1,12 @@
+--- Parametric Curve Optimization Results ---
+Report generated on: Sun Nov  9 06:41:26 2025
+
+Optimal Parameters (from Optimizer):
+  theta = 0.5243625980077934
+  M = 0.02998939878986737
+  X = 55.01557813225073
+
+Final L1 Loss (MAE): 0.3022913466579007
+
+--- Final Submission String ---
+\left( (t*\cos(0.5243625980077934) - e^{\left{0.02998939878986737}|t|\right}} \cdot \sin(0.3t)\sin(0.5243625980077934) + 55.01557813225073, 42 + t*\sin(0.5243625980077934) + e^{\left{0.02998939878986737}|t|\right}} \cdot \sin(0.3t)\cos(0.5243625980077934) \right) \right)
