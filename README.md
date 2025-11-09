@@ -4,7 +4,8 @@ All these experiments were done in Google Colab w/ proper citations
 
 ##  How the Idea came into place
    When the dataset (`xy_data.csv`) was observed it looked random but looked like it was repeating the same pattern (the parabola- I mean expected for fxm's containing sin and cos ). 
-![X & Y plot](https://ibb.co/zhc90wTV)
+<img width="845" height="553" alt="Relationship btw x   y" src="https://github.com/user-attachments/assets/d0ae9bbb-ccdd-492b-8312-5e2fbe6f3c82" />
+
 While searching i was checking if there could be method to arrange data in a [timly order](https://stackoverflow.com/questions/994054/curve-fitting-unsorted-points-on-a-plane), to understand the relationshit between them.
 When checking the equations provided, as theta lies from 0 to 50, during this time sin theta value is less and cos theta value will be greater. While keeping these in mind x and y can be re-written with domainant terms in x and y.
 
@@ -14,7 +15,9 @@ sin(0.3t) - ignored as t lies btw 6 to 60 and value is negligible here. When fro
 
 Keeping the above point in mind Data Preprcoessing is to be done for the CSV file given,
 For each x and y point find the new sort key for each point and plot, the graph should be similar in theory, when comaired we get the image 
-![Normal vs heurustic graph](https://ibb.co/fYLhnbC8)
+[Normal vs heurustic graph]
+<img width="1550" height="592" alt="Dominant X Y" src="https://github.com/user-attachments/assets/be1581a0-6a5b-4461-aa70-a4d9e16dd033" />
+
 As u can see the image there are not much similar changes to both the graphs, so what we though intially was correct.
 
    I introduced an `(x + y)` sorting strategy — a simple yet powerful heuristic that imposes a *pseudo-temporal sequence* on unordered points.
