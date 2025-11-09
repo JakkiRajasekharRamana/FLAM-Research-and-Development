@@ -21,10 +21,26 @@ For each x and y point find the new sort key for each point and plot, the graph 
 <img width="1550" height="592" alt="Dominant X Y" src="https://github.com/user-attachments/assets/be1581a0-6a5b-4461-aa70-a4d9e16dd033" />
 
 As u can see the image there are not much similar changes to both the graphs, so what we though intially was correct. Now we got the new points x' and y'. Its time to think for a possible solution.
+
 ---
 
-Intially i thought we can diffrenticate find critial points and find values, but looking further it wasnt possible due to sin & cos being in single exuations, so we should look at alternate ones. 
+Solution:
 
+
+Intially i thought we can diffrenticate find critial points and find values, but looking further it wasnt possible due to sin & cos being in single exuations, using a gradient based optimizer would fail as the local minimum would stuck/converge in that local minima itself. So we should look at alternate ones. 
+
+But the better strategy which i found is to use [gradient free, global optimization algorithm](https://medium.com/@reshma_shaji/differential-evolution-what-it-is-and-how-does-it-work-81d3415c2367). We selected Differential Evolution it also uses the heuristic approach designed to find the global optimum in non-linear, non-differentiable spaces which suits perfectly for the problem statement. Our model is non-linear which contains sin, cos,e terms, and our L1 distance objective function is non differentiable. It is designed as a global optimization method that effectively searches the entire parameter space defined by the bounds provided in the range 6 to 60. The module impoted here is `scipy.optimize.differential_evolution`.
+
+---
+
+# Results
+
+The results come out as 
+<img width="774" height="298" alt="image" src="https://github.com/user-attachments/assets/018ea161-b700-4e63-8972-349bca48840b" />
+
+The scipy.optimize.differential_evolution function is the specific tool used to implement this strategy.
+
+The optimizer is called to minimize the objective_function (Section III) within the strict bounds defined in Table 1.
 ## 🔬 Implementation Overview
 
 | Component | Description |
