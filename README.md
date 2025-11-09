@@ -1,4 +1,4 @@
-# FLAM Research: [Notebook Link](https://colab.research.google.com/drive/1BYSuhUHsP0tciXguSopeWNg-b9sUaiKk?usp=sharing)
+# FLAM Research: [Colab Notebook Link](https://colab.research.google.com/drive/1BYSuhUHsP0tciXguSopeWNg-b9sUaiKk?usp=sharing)
 
 All these experiments were done in Google Colab w/ proper citations
 
@@ -42,3 +42,5 @@ The results come out as
 
 <img width="1200" height="800" alt="final_model_fit" src="https://github.com/user-attachments/assets/02a12ce3-2610-4f1f-93f1-e0559eab184d" />
 
+
+**[Colab Notebook Link](https://colab.research.google.com/drive/1BYSuhUHsP0tciXguSopeWNg-b9sUaiKk?usp=sharing)**
