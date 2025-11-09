@@ -39,3 +39,5 @@ The results come out as
 <img width="774" height="298" alt="image" src="https://github.com/user-attachments/assets/018ea161-b700-4e63-8972-349bca48840b" />
 
 
+<img width="1200" height="800" alt="final_model_fit" src="https://github.com/user-attachments/assets/02a12ce3-2610-4f1f-93f1-e0559eab184d" />
+
