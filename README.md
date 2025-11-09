@@ -43,8 +43,11 @@ The results come out as
 <img width="1200" height="800" alt="final_model_fit" src="https://github.com/user-attachments/assets/02a12ce3-2610-4f1f-93f1-e0559eab184d" />
 ---
 
-**Optimal Parameters (theta, M, X): [$\theta = 0.826$,$M = 0.0742$,$X = 11.5793$]
-Final L1 Loss (MAE): 0.3022915049020612**
+
+**Optimal Parameters (theta, M, X): [0.826,0.0742,11.5793]**
+
+
+**Final L1 Loss (MAE): 0.3022915049020612**
 
 ---
 
