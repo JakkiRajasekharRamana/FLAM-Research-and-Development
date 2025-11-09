@@ -41,6 +41,10 @@ The results come out as
 
 
 <img width="1200" height="800" alt="final_model_fit" src="https://github.com/user-attachments/assets/02a12ce3-2610-4f1f-93f1-e0559eab184d" />
+---
 
+### `******Optimal Parameters (theta, M, X): [5.24361185e-01 2.99901258e-02 5.50157086e+01]
+Final L1 Loss (MAE): 0.3022915049020612******`
+---
 
 **[Colab Notebook Link](https://colab.research.google.com/drive/1BYSuhUHsP0tciXguSopeWNg-b9sUaiKk?usp=sharing)**
