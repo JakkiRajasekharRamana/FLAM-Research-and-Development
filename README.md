@@ -1,6 +1,7 @@
 # FLAM Research
 
 All these experiments were done in Google Colab w/ proper citations
+Incase of error[Notebook Link:](https://colab.research.google.com/drive/1BYSuhUHsP0tciXguSopeWNg-b9sUaiKk?usp=sharing) 
 ---
 ##  How the Idea came into place
    When the dataset (`xy_data.csv`) was observed it looked random but looked like it was repeating the same pattern (the parabola- I mean expected for fxm's containing sin and cos ). 
