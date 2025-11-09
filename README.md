@@ -38,18 +38,4 @@ But the better strategy which i found is to use [gradient free, global optimizat
 The results come out as 
 <img width="774" height="298" alt="image" src="https://github.com/user-attachments/assets/018ea161-b700-4e63-8972-349bca48840b" />
 
-The scipy.optimize.differential_evolution function is the specific tool used to implement this strategy.
 
-The optimizer is called to minimize the objective_function (Section III) within the strict bounds defined in Table 1.
-## 🔬 Implementation Overview
-
-| Component | Description |
-|------------|-------------|
-| **Language** | Python (Jupyter Notebook) |
-| **Notebook** | `FLAM_Research_v3.ipynb` |
-| **Core Libraries** | NumPy, Pandas, SciPy, Matplotlib, TQDM |
-| **Optimization Engine** | `scipy.optimize.differential_evolution` |
-| **Input Data** | `xy_data.csv` (loaded from Google Drive) |
-| **Output** | Optimized parameters + visualized approximations |
-
----
