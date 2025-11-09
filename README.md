@@ -1,7 +1,7 @@
 # FLAM Research
 
 All these experiments were done in Google Colab w/ proper citations
-
+---
 ##  How the Idea came into place
    When the dataset (`xy_data.csv`) was observed it looked random but looked like it was repeating the same pattern (the parabola- I mean expected for fxm's containing sin and cos ). 
 <img width="845" height="553" alt="Relationship btw x   y" src="https://github.com/user-attachments/assets/d0ae9bbb-ccdd-492b-8312-5e2fbe6f3c82" />
@@ -21,7 +21,7 @@ For each x and y point find the new sort key for each point and plot, the graph 
 <img width="1550" height="592" alt="Dominant X Y" src="https://github.com/user-attachments/assets/be1581a0-6a5b-4461-aa70-a4d9e16dd033" />
 
 As u can see the image there are not much similar changes to both the graphs, so what we though intially was correct. Now we got the new points x' and y'. Its time to think for a possible solution.
-----
+---
 
 Intially i thought we can diffrenticate find critial points and find values, but looking further it wasnt possible due to sin & cos being in single exuations, so we should look at alternate ones. 
 
@@ -37,30 +37,3 @@ Intially i thought we can diffrenticate find critial points and find values, but
 | **Output** | Optimized parameters + visualized approximations |
 
 ---
-
-## 📈 What Makes It Unique
-- Introduces **data ordering heuristics** to preprocess unordered points  
-- Combines **metaheuristic optimization** with visual analysis  
-- Completely **interpretable pipeline** — no hidden layers or weights  
-- Serves as a foundation for **physics-informed or explainable AI** modeling
-
----
-
-## 🚀 Potential Applications
-- Reconstructing sensor or experimental trajectories  
-- Reverse-engineering system dynamics  
-- Estimating parameters in sustainability or control models  
-- Curve fitting for chaotic or incomplete datasets  
-
----
-
-## 🧩 Future Work
-- Implement adaptive ordering heuristics  
-- Extend to higher-dimensional datasets  
-- Integrate symbolic regression for interpretable equations  
-- Benchmark against GA, PSO, and gradient-based methods  
-
----
-
-## 📁 Repository Structure
-
